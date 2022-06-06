@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ToolCapacityDef>
+		<defName>Flame</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>Flame</defName>
+		<requiredCapacity>Flame</requiredCapacity>
+		<verb Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+			<meleeDamageDef>Flame</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+
+
+	<ToolCapacityDef>
+		<defName>Burn</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>Burn</defName>
+		<requiredCapacity>Burn</requiredCapacity>
+		<verb Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+			<meleeDamageDef>Burn</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	
+	<ToolCapacityDef>
+		<defName>Coldstone</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>Coldstone</defName>
+		<requiredCapacity>Coldstone</requiredCapacity>
+		<verb Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+			<meleeDamageDef>ColdstoneDust</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>	
+
+</Defs>

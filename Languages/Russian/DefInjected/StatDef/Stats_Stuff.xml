@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FlameDamageMultiplier.label>Урон огнем</FlameDamageMultiplier.label>
+  <FlameDamageMultiplier.description>Множитель урона от огненных атак для оружия из этого материала.</FlameDamageMultiplier.description>
+
+
+</LanguageData>

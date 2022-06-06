@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<Verse.ThingDef ParentName="SK_BaseMeleeWeapon">
+		<defName>MeleeWeapon_Vibroknife</defName>
+		<label>Vibroknife</label>
+		<description>A big knife with blade vibrating at high frequency that can penetrate almost any armor but not very effective against flesh.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Vibroknife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>HitechMelee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<costList>
+			<MagneticMaterial>20</MagneticMaterial>
+			<AlphaPoly>60</AlphaPoly>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Bulk>3</Bulk>
+			<Mass>2.5</Mass>
+			<MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.8</MeleeCritChance>
+			<MeleeDodgeChance>0.3</MeleeDodgeChance>
+			<MeleeParryChance>0.2</MeleeParryChance>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.25</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.1</cooldownTime>
+				<chanceFactor>0.4</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<armorPenetrationSharp>60</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.1</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<armorPenetrationSharp>80</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<recipeUsers>
+				<li>MechWeaponCraftingWorkTable</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>19</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<thingCategories>
+			<li>AgileMelee</li>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</Verse.ThingDef>
+
+
+
+	<Verse.ThingDef ParentName="WeaponMedievalBase">
+		<defName>MeleeWeapon_FlamingGreatSword</defName>
+		<label>Flaming Zweihander</label>
+		<description>Careful, this thing is on fire.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/FlamingZweih</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>	
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>		
+		<costList>
+			<Cloth>30</Cloth>
+			<Chemfuel>30</Chemfuel>
+			<ComponentMedieval>7</ComponentMedieval>
+		</costList>
+		<statBases>
+			<WorkToMake>13000</WorkToMake>
+			<Bulk>10</Bulk>
+			<Mass>4</Mass>
+			<MeleeCounterParryBonus>1</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.5</MeleeCritChance>
+			<MeleeParryChance>0.3</MeleeParryChance>
+			<MeleeDodgeChance>0.3</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMelee2H</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>0.10</chanceFactor>
+				<armorPenetrationBlunt>7</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>8.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>4</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.1</cooldownTime>
+				<chanceFactor>0.66</chanceFactor>
+				<armorPenetrationBlunt>8.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Burn</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.1</cooldownTime>
+				<chanceFactor>3</chanceFactor>
+				<armorPenetrationBlunt>8.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Flame</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.5</cooldownTime>
+				<chanceFactor>0.8</chanceFactor>
+				<armorPenetrationBlunt>8.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>1.2,1.2</DrawSize>
+		  </li>
+		</modExtensions>
+		<thingCategories>
+			<li>SharpMelee</li>
+			<li>HeavyMelee</li>
+		</thingCategories>
+	</Verse.ThingDef>
+
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseWeaponAndAmmoNeolithic">
+		<defName>Throwing_Torch</defName>
+		<label>Torch</label>
+		<description>A burning piece of wood. You can throw it or try setting an enemy on fire in melee.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Torch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_BeatFire</soundInteract>
+		<tradeability>Sellable</tradeability>
+		<costList>
+			<Kindling>15</Kindling>
+		</costList>
+		<statBases>
+			<MaxHitPoints>15</MaxHitPoints>
+			<WorkToMake>500</WorkToMake>
+			<SightsEfficiency>0.3</SightsEfficiency>
+			<ShotSpread>0.75</ShotSpread>
+			<SwayFactor>2</SwayFactor>
+			<Bulk>6</Bulk>
+			<Mass>2</Mass>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<stackLimit>20</stackLimit>
+		<weaponTags>
+			<li>RK_Murderer</li>
+			<li>CE_OneHandedWeapon</li>
+			<li>MedievalMelee</li>
+			<li>Neolithic</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Torch_thrown</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>7</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Flame</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.8</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Burn</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.8</cooldownTime>
+				<chanceFactor>1.5</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8,0.8</DrawSize>
+		  </li>
+		</modExtensions>
+		<thingCategories>
+			<li>ThrownRanged</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<Verse.ThingDef ParentName="WeaponMedievalBase">
+		<defName>MeleeWeapon_ColdstoneHammer</defName>
+		<label>Coldstone Hammer</label>
+		<description>With the help of a few chemical reactions coldstone becomes extreamly volatile crystal that explodes on contact. This weapon is the fist thing that comes to mind.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/ColdHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMelee2H</li>
+		</weaponTags>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Coldstone>40</Coldstone>
+		</costList>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToMake>13000</WorkToMake>
+			<Bulk>10</Bulk>
+			<Mass>5</Mass>
+			<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.5</MeleeCritChance>
+			<MeleeParryChance>0.1</MeleeParryChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Coldstone</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.1</cooldownTime>
+				<armorPenetrationBlunt>16</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>1.2,1.2</DrawSize>
+		  </li>
+		</modExtensions>
+		<recipeMaker>
+			<researchPrerequisite>EnthalpicCooling</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>BluntMelee</li>
+		</thingCategories>
+	</Verse.ThingDef>
+
+
+</Defs>

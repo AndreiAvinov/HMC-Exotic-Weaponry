@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ColdstoneDust.label>Хладокаменная пыль</ColdstoneDust.label>
+  <ColdstoneDust.deathMessage>{0} был убит.</ColdstoneDust.deathMessage>
+
+  <FecalCovered.label>Покрыт фекалиями</FecalCovered.label>
+  <FecalCovered.deathMessage>{0} был убит.</FecalCovered.deathMessage>
+
+  <Cryoblast.label>Криовзрыв</Cryoblast.label>
+  <Cryoblast.deathMessage>{0} насмерть заморожен.</Cryoblast.deathMessage>
+
+
+</LanguageData>

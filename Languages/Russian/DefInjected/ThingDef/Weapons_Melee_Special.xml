@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Throwing_Torch.label>Факел</Throwing_Torch.label>
+  <Throwing_Torch.description>Горящий кусок дерева. Его можно метнуть или попытаться поджечь врага.</Throwing_Torch.description>
+  <Throwing_Torch.tools.0.label>рукоятка</Throwing_Torch.tools.0.label>
+  <Throwing_Torch.tools.1.label>верхушка</Throwing_Torch.tools.1.label>
+  <Throwing_Torch.tools.2.label>верхушка</Throwing_Torch.tools.2.label>
+
+
+</LanguageData>

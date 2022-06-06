@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- fire flask -->
+
+  <Proj_Flask_fire.label>флакон (брошенный)</Proj_Flask_fire.label>
+
+  <Flask_fire.label>Флакон с эссенцией (огонь)</Flask_fire.label>
+  <Flask_fire.description>Склянка наполнена эссенцией из сердца могучей твари. Сожжёт и врагов и друзей.</Flask_fire.description>
+  <Flask_fire.verbs.0.label>метнуть флакон</Flask_fire.verbs.0.label>
+
+
+  <!-- ice flask -->
+
+  <Fragment_Ice.label>ледяной осколок</Fragment_Ice.label>
+  <Filth_Snow.label>Снег</Filth_Snow.label>
+  <Proj_Flask_ice.label>флакон (брошенный)</Proj_Flask_ice.label>
+
+  <Flask_ice.label>Флакон с эссенцией (лёд)</Flask_ice.label>
+  <Flask_ice.description>Склянка наполнена эссенцией из сердца могучей твари. Моментально заморозит всё вокруг.</Flask_ice.description>
+  <Flask_ice.verbs.0.label>метнуть взрывной флакон</Flask_ice.verbs.0.label>
+
+
+  <!-- fire orb -->
+
+  <MagicFire_projectile.label>чудесное пламя</MagicFire_projectile.label>
+
+  <MagicOrb_fire.label>Волшебная сфера (огонь)</MagicOrb_fire.label>
+  <MagicOrb_fire.description>Содержит сущность могучей твари. Запертая в бесконечном круге боли, она стремится сжечь всё. Выпустите небольшую её часть и полюбуйтесь её яростью!</MagicOrb_fire.description>
+
+
+  <!-- ice orb -->
+
+  <MagicIce_projectile.label>чудесный лёд</MagicIce_projectile.label>
+
+  <MagicOrb_ice.label>Волшебная сфера (лёд)</MagicOrb_ice.label>
+  <MagicOrb_ice.description>Содержит сущность могучей твари. Запертая в бесконечном круге боли, она стремится заморозить всё. Выпустите небольшую её часть и полюбуйтесь её яростью!</MagicOrb_ice.description>
+
+
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- fire flask -->
+
+  <MakeFlaskFire.label>Сделать Флакон эссенции (огонь)</MakeFlaskFire.label>
+  <MakeFlaskFire.description>Сделайте метательное оружие, сжигающее ваших врагов дотла!</MakeFlaskFire.description>
+  <MakeFlaskFire.jobString>Делает Флакон эссенции (огонь).</MakeFlaskFire.jobString>
+
+
+  <!-- ice flask -->
+
+  <MakeFlaskIce.label>Сделать Флакон эссенции (лёд)</MakeFlaskIce.label>
+  <MakeFlaskIce.description>Сделайте метательное оружие, замораживающее ваших врагов до сосулек!</MakeFlaskIce.description>
+  <MakeFlaskIce.jobString>Делает Флакон эссенции (лёд)</MakeFlaskIce.jobString>
+
+
+  <!-- fire orb -->
+
+  <MakeMagicOrbFire.label>Сделать Волшебную сферу (огонь)</MakeMagicOrbFire.label>
+  <MakeMagicOrbFire.description>Заключите сущность феникса в сферу.</MakeMagicOrbFire.description>
+  <MakeMagicOrbFire.jobString>Делает Волшебную сферу (огонь).</MakeMagicOrbFire.jobString>
+
+
+  <!-- ice orb -->
+
+  <MakeMagicOrbIce.label>Сделать Волшебную сферу (лёд)</MakeMagicOrbIce.label>
+  <MakeMagicOrbIce.description>Заключите сущность кирина в сферу.</MakeMagicOrbIce.description>
+  <MakeMagicOrbIce.jobString>Делает Волшебную сферу (лёд).</MakeMagicOrbIce.jobString>
+
+
+</LanguageData>

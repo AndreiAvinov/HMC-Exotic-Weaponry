@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">  <!-- Fecal Balls -->
+	  <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_Catapult"]/ammoTypes</xpath>
+	  <value>
+		<Ammo_FecalBall>Fecal_Ball</Ammo_FecalBall>
+	  </value>
+	</Operation>
+
+</Patch>

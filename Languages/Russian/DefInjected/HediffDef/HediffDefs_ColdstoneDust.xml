@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ColdstoneDust.label>хладокаменная пыль</ColdstoneDust.label>
+  <ColdstoneDust.description>охладокаменение</ColdstoneDust.description>
+  <ColdstoneDust.stages.0.label>начальное</ColdstoneDust.stages.0.label>
+  <ColdstoneDust.stages.1.label>озноб</ColdstoneDust.stages.1.label>
+  <ColdstoneDust.stages.2.label>зудящий озноб</ColdstoneDust.stages.2.label>
+  <ColdstoneDust.stages.3.label>подморожен</ColdstoneDust.stages.3.label>
+  <ColdstoneDust.stages.4.label>химическое обморожение</ColdstoneDust.stages.4.label>
+  <ColdstoneDust.labelNoun>покрыт хладокаменной пылью</ColdstoneDust.labelNoun>
+
+  <FecalCovered.label>Покрыт фекалиями</FecalCovered.label>
+  <FecalCovered.description>вот бы это смыть</FecalCovered.description>
+  <FecalCovered.stages.0.label>слегка</FecalCovered.stages.0.label>
+  <FecalCovered.stages.1.label>малая кака</FecalCovered.stages.1.label>
+  <FecalCovered.stages.2.label>обосранец</FecalCovered.stages.2.label>
+  <FecalCovered.stages.3.label>максимальная говнистость</FecalCovered.stages.3.label>
+  <FecalCovered.stages.4.label>повелитель говн</FecalCovered.stages.4.label>
+  <FecalCovered.labelNoun>покрыт фекалиями</FecalCovered.labelNoun>
+
+
+</LanguageData>

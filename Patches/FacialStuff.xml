@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Facial Stuff</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<WeaponExtensionDef>
+					<weapon>MeleeWeapon_FlamingGreatSword</weapon>
+					<attackAngleOffset IsNull="True" />
+					<weaponPositionOffset>
+						<x>0.3836478</x>
+						<y>0</y>
+						<z>0.1132075</z>
+					</weaponPositionOffset>
+					<aimedWeaponPositionOffset>
+						<x>0</x>
+						<y>0</y>
+						<z>0</z>
+					</aimedWeaponPositionOffset>
+					<firstHandPosition>
+						<x>-0.408805</x>
+						<y>0.005</y>
+						<z>-0.3647799</z>
+					</firstHandPosition>
+					<secondHandPosition>
+						<x>-0.3522013</x>
+						<y>-0.005</y>
+						<z>-0.3899371</z>
+					</secondHandPosition>
+					<defName>WeaponExtensionDef_MeleeWeapon_FlamingGreatSword</defName>
+					<label>WeaponExtensionDef_MeleeWeapon_FlamingGreatSword</label>
+				</WeaponExtensionDef>
+
+				<WeaponExtensionDef>
+					<weapon>MeleeWeapon_ColdstoneHammer</weapon>
+					<attackAngleOffset IsNull="True" />
+					<weaponPositionOffset>
+						<x>0.2893082</x>
+						<y>0</y>
+						<z>0.1383648</z>
+					</weaponPositionOffset>
+					<aimedWeaponPositionOffset>
+						<x>0</x>
+						<y>0</y>
+						<z>0</z>
+					</aimedWeaponPositionOffset>
+					<firstHandPosition>
+						<x>-0.08805031</x>
+						<y>0.005</y>
+						<z>-0.03773585</z>
+					</firstHandPosition>
+					<secondHandPosition>
+						<x>-0.3710692</x>
+						<y>0.005</y>
+						<z>-0.3396226</z>
+					</secondHandPosition>
+					<defName>WeaponExtensionDef_MeleeWeapon_ColdstoneHammer</defName>
+					<label>WeaponExtensionDef_MeleeWeapon_ColdstoneHammer</label>
+				</WeaponExtensionDef>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

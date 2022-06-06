@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef ParentName="BluntBase">
+		<defName>ColdstoneDust</defName>
+		<label>Coldstone Dust</label>
+		<additionalHediffs>
+			<li>
+				<hediff>ColdstoneDust</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	<DamageDef ParentName="BluntBase">
+		<defName>FecalCovered</defName>
+		<label>Covered in feces</label>
+		<additionalHediffs>
+			<li>
+				<hediff>FecalCovered</hediff>
+				<severityPerDamageDealt>0.2</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+	</DamageDef>
+	
+	<DamageDef>
+		<defName>Cryoblast</defName>
+		<label>Cryoblast</label>
+	    <workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<soundExplosion>Explosion_Stun</soundExplosion>
+	</DamageDef>
+
+</Defs>

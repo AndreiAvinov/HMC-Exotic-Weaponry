@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_FecalBall.label>Сделать фекальные ядра x3</MakeAmmo_FecalBall.label>
+  <MakeAmmo_FecalBall.description>Сделать фекальные ядра.</MakeAmmo_FecalBall.description>
+  <MakeAmmo_FecalBall.jobString>Делает фекальные ядра.</MakeAmmo_FecalBall.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MeleeWeapon_Vibroknife.label>Вибронож</MeleeWeapon_Vibroknife.label>
+  <MeleeWeapon_Vibroknife.description>Большой нож с клинком, вибрирующем на высокой частоте. Пробивает почти любую броню, но не так уж хорош против плоти.</MeleeWeapon_Vibroknife.description>
+  <MeleeWeapon_Vibroknife.tools.0.label>рукоять</MeleeWeapon_Vibroknife.tools.0.label>
+  <MeleeWeapon_Vibroknife.tools.1.label>лезвие</MeleeWeapon_Vibroknife.tools.1.label>
+  <MeleeWeapon_Vibroknife.tools.2.label>остирё</MeleeWeapon_Vibroknife.tools.2.label>
+
+  <MeleeWeapon_FlamingGreatSword.label>Пылающий Цвайхандер</MeleeWeapon_FlamingGreatSword.label>
+  <MeleeWeapon_FlamingGreatSword.description>Осторожно, эта штука горит огнём.</MeleeWeapon_FlamingGreatSword.description>
+  <MeleeWeapon_FlamingGreatSword.tools.0.label>навершие</MeleeWeapon_FlamingGreatSword.tools.0.label>
+  <MeleeWeapon_FlamingGreatSword.tools.1.label>остриё</MeleeWeapon_FlamingGreatSword.tools.1.label>
+  <MeleeWeapon_FlamingGreatSword.tools.2.label>лезвие</MeleeWeapon_FlamingGreatSword.tools.2.label>
+  <MeleeWeapon_FlamingGreatSword.tools.3.label>лезвие</MeleeWeapon_FlamingGreatSword.tools.3.label>
+  <MeleeWeapon_FlamingGreatSword.tools.4.label>лезвие</MeleeWeapon_FlamingGreatSword.tools.4.label>
+
+  <MeleeWeapon_ColdstoneHammer.label>Хладокаменный молот</MeleeWeapon_ColdstoneHammer.label>
+  <MeleeWeapon_ColdstoneHammer.description>При помощи нескольких химических реакций хладокамень превратили в чрезвычайно летучий кристалл, взрывающийся при контакте. Это оружие - первое, что придумали.</MeleeWeapon_ColdstoneHammer.description>
+  <MeleeWeapon_ColdstoneHammer.tools.0.label>головка</MeleeWeapon_ColdstoneHammer.tools.0.label>
+
+
+</LanguageData>

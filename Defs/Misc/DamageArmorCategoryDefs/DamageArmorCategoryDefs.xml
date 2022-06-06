@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <DamageArmorCategoryDef>
+    <defName>Flame</defName>
+    <multStat>FlameDamageMultiplier</multStat>
+    <armorRatingStat>ArmorRating_Heat</armorRatingStat>
+  </DamageArmorCategoryDef>
+  
+   <DamageArmorCategoryDef>
+    <defName>Heat</defName>
+    <multStat>FlameDamageMultiplier</multStat>
+	<armorRatingStat>ArmorRating_Heat</armorRatingStat>
+  </DamageArmorCategoryDef>
+</Defs>
